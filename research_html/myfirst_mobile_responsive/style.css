@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container{
+	width:100%;
+	overflow:hidden;
+} 
+.header{
+    margin: 0;
+    padding: 0;
+} 
+.content{
+    margin: 0;
+    padding: 0;
+}
+.footer{
+    margin: 0;
+    padding: 0;
+	background:#000;
+}
+.header_body{
+	width:1000px;
+	min-height:50px;
+	margin:0 auto;
+	background:#3F4242;
+	overflow:hidden;
+	position:relative;
+}
+.content_body{
+	width:1000px;
+	margin:0 auto;
+	overflow:hidden;
+}
+.leftsidebar{
+	width:250px;
+	min-height:800px;
+	float:left;
+	background:#03F;
+}
+.rightsidebar{
+	width:700px;
+	min-height:800px;
+	float:right;
+	background:#069;
+}
+.footer_body{
+	width:1000px;
+	height:50px;
+	margin:0 auto;
+}
+/*Parent CSS  end here*/
+.menu ul{
+	padding:0;
+	margin:0;
+}
+.menu li{
+	float:left;
+	list-style:none;
+	margin-right:10px;
+}
+.menu li a{
+	padding:15px 10px;
+	display:block;
+	color:#fff;
+	font-size:15px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	text-transform:uppercasel;
+}
+.menu li a:hover{
+	background:#535555;	
+}
+.menu_show{
+	display:none;	
+}
+.footer_body p{
+	line-height:58px;
+	color:#fff;
+	font-size:15px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	text-transform:uppercasel;
+	text-align:center;
+}
+.fullscreenbanner{
+	width:100%;
+	height:300px;
+	
+	background:url(1.jpg) no-repeat  center top;
+	background-size: cover;
+
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.1.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='1.jpg', sizingMethod='scale')";
+}
+.bgwidth { width: 100%; }
+.bgheight { height: 100%; }
+
+/* responsive rules */
+@media all and (max-width : 980px) {
+	.menu{
+		display:none;	
+	}
+    .menu   li {
+		width:100%;
+        float: left;
+		margin-right:0;
+		border-bottom:1px solid #333;
+    }
+	#menu_button{
+		display:block;
+		color:#fff;
+		font-size:18px;
+		margin:10px 15px 0 0;
+		text-indent:15%;
+		text-decoration:none;
+	}
+	.content_body{
+		width:100%;
+		padding-top:20px;
+	}
+	.leftsidebar{
+		width:100%;
+		float:none;
+		margin-bottom:20px;
+	}
+	.rightsidebar{
+		width:100%;
+		float:none;
+		margin-bottom:20px;
+	}
+	.footer_body{
+		width:100%;
+	}
+}
+ 

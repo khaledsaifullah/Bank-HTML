@@ -1,0 +1,118 @@
+<link rel="stylesheet" type="text/css" href="barousel_demo.css" />
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.1.js"></script>
+<script type="text/javascript" src="jquery.barousel.min.js"></script>
+<script type="text/javascript" src="jquery.thslide.js"></script>
+
+<script type="text/javascript">
+jQuery(document).ready(function(){
+	
+	jQuery('#barousel_thslide').barousel({
+    	navWrapper: '#thslide_barousel_nav .thslide_list',
+    	manualCarousel: 0,
+		infiniteScroll: 1 ,   
+    	navType: 3
+});
+
+$('#thslide_barousel_nav').thslide({
+    itemOffset: 93
+});
+});
+</script>
+
+
+
+
+<div class="content_holder">         
+            <p class="intro">Barousel and Thslide can be easily combined together to create a <strong>slideshow</strong>.</p>
+            <!-- /// CUSTOM NAVIGATION -->
+            <div id="barousel_thslide" class="barousel">
+                <div class="barousel_image">
+                    <!-- image 1 -->
+                    <img src="images/barousel_horses_1.jpg" alt="" class="default" />
+                    <!-- image 2 -->
+                    <img src="images/barousel_horses_2.jpg" alt="" />
+                    <!-- image 3 -->
+                    <img src="images/barousel_horses_3.jpg" alt="" />
+                    <!-- image 4 -->
+                    <img src="images/barousel_horses_4.jpg" alt="" />
+                    <!-- image 5 -->
+                    <img src="images/barousel_carousel_1.jpg" alt="" />
+                    <!-- image 6 -->
+                    <img src="images/barousel_carousel_2.jpg" alt="" />
+                    <!-- image 7 -->
+                    <img src="images/barousel_carousel_3.jpg" alt="" />
+                    <!-- image 8 -->
+                    <img src="images/barousel_carousel_4.jpg" alt="" />
+                </div>
+                <div class="barousel_content">
+                    <!-- content 1 -->
+                    <div class="default">
+                        <p class="header">Horses 1</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                        <p><a href="#">Link 1</a></p>
+                    </div>
+                    <!-- content 2 -->
+                    <div>
+                        <p class="header">Horses 2</p>
+                        <p>Nam eros eros, tempor ac hendrerit a, placerat vitae augue. </p>
+                        <p><a href="#">Link 2</a></p>
+                    </div>
+                    <!-- content 3 -->
+                    <div>
+                        <p class="header">Horses 3</p>
+                        <p>Ut euismod suscipit elit, id pulvinar dui viverra ac. Fusce interdum leo sit amet turpis pretium fringilla. </p>
+                        <p><a href="#">Link 3</a></p>
+                    </div>
+                    <!-- content 4 -->
+                    <div>
+                        <p class="header">Horses 4</p>
+                        <p>Vivamus pharetra tristique mi, vitae blandit enim fringilla eget. Fusce consectetur lorem nec tortor varius elementum vel ac urna. Vitae blandit enim fringilla eget.</p>
+                        <p><a href="#">Link 4</a></p>
+                    </div>
+                    <!-- content 5 -->
+                    <div>
+                        <p class="header">Carousel 1</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                        <p><a href="#">Link 5</a></p>
+                    </div>
+                    <!-- content 6 -->
+                    <div>
+                        <p class="header">Carousel 2</p>
+                        <p>Nam eros eros, tempor ac hendrerit a, placerat vitae augue. </p>
+                        <p><a href="#">Link 6</a></p>
+                    </div>
+                    <!-- content 7 -->
+                    <div>
+                        <p class="header">Carousel 3</p>
+                        <p>Ut euismod suscipit elit, id pulvinar dui viverra ac. Fusce interdum leo sit amet turpis pretium fringilla.</p>
+                        <p><a href="#">Link 7</a></p>
+                    </div>
+                    <!-- content 8 -->
+                    <div>
+                        <p class="header">Carousel 4</p>
+                        <p>Vivamus pharetra tristique mi, vitae blandit enim fringilla eget. Fusce consectetur lorem nec tortor varius elementum vel ac urna. Vitae blandit enim fringilla eget.</p>
+                        <p><a href="#">Link 8</a></p>
+                    </div>
+                </div>
+                <div id="thslide_barousel_nav" class="thslide">
+                    <div class="thslide_nav_previous">
+                        <a href="#">&nbsp;</a>
+                    </div>
+                    <div class="thslide_list">
+                        <ul>
+                            <li><a href="#"><img src="images/image_1.jpg" alt="" /><span></span></a></li>                        
+                            <li><a href="#"><img src="images/th_barousel_horses_2.jpg" alt="" /><span></span></a></li>
+                            <li><a href="#"><img src="images/th_barousel_horses_3.jpg" alt="" /><span></span></a></li>
+                            <li><a href="#"><img src="images/th_barousel_horses_4.jpg" alt="" /><span></span></a></li>
+                            <li><a href="#"><img src="images/th_barousel_carousel_1.jpg" alt="" /><span></span></a></li>                        
+                            <li><a href="#"><img src="images/th_barousel_carousel_2.jpg" alt="" /><span></span></a></li>
+                            <li><a href="#"><img src="images/th_barousel_carousel_3.jpg" alt="" /><span></span></a></li>
+                            <li><a href="#"><img src="images/th_barousel_carousel_4.jpg" alt="" /><span></span></a></li>
+                       </ul>
+                    </div>
+                    <div class="thslide_nav_next">
+                        <a href="#">&nbsp;</a>
+                    </div>
+                </div>
+            </div>    
+        </div>

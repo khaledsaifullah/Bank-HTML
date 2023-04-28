@@ -1,0 +1,16 @@
+1. Article  page  ta  ka  administarot  thekea 
+
+Front  Page  ta ka  Yes  kora  deta hobe
+2. Main menu  er  Home ta ka  Front  page  hesaba  asign korta hobe
+
+3. Jedi Home page hoy tahole  ebong  inner page hole onnorom
+
+php  condition deya check korta hobe
+
+<?php if ($_REQUEST['view']=="frontpage"){?>
+	<div id="left_content"> <jdoc:include type="component" /> </div>
+  
+<?php }else{?>
+
+<div id="left_content_inner"><jdoc:include type="component" /></div>
+<?php }?>

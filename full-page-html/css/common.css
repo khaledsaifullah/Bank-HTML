@@ -1,0 +1,217 @@
+/* PAGINATION
+-------------------------------------------------------------- */
+.pagination {
+    clear:both;
+    font-size:12px;
+	font-weight: bold;
+    line-height:13px;
+    padding: 10px 0 10px 15px;
+    position:relative;
+}
+ 
+.pagination span, .pagination a {
+	background: rgb(139,142,150); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(139,142,150,1) 0%, rgba(102,104,110,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(139,142,150,1)), color-stop(100%,rgba(102,104,110,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(139,142,150,1) 0%,rgba(102,104,110,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(139,142,150,1) 0%,rgba(102,104,110,1) 100%); /* Opera11.10+ */
+	background: -ms-linear-gradient(top, rgba(139,142,150,1) 0%,rgba(102,104,110,1) 100%); /* IE10+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8b8e96', endColorstr='#66686e',GradientType=0 ); /* IE6-9 */
+	background: linear-gradient(top, rgba(139,142,150,1) 0%,rgba(102,104,110,1) 100%); /* W3C */
+    color: #fff;
+    display: block;
+    float: left;
+    margin: 2px 2px 2px 0;
+    padding: 6px 9px 5px 9px;
+    text-decoration: none;
+	text-shadow: 0 -1px 0 #555;
+    width: auto;
+}
+.pagination a:hover,
+.pagination .current{
+	background: rgb(102,104,110); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(102,104,110,1) 0%, rgba(139,142,150,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(102,104,110,1)), color-stop(100%,rgba(139,142,150,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(102,104,110,1) 0%,rgba(139,142,150,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(102,104,110,1) 0%,rgba(139,142,150,1) 100%); /* Opera11.10+ */
+	background: -ms-linear-gradient(top, rgba(102,104,110,1) 0%,rgba(139,142,150,1) 100%); /* IE10+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66686e', endColorstr='#8b8e96',GradientType=0 ); /* IE6-9 */
+	background: linear-gradient(top, rgba(102,104,110,1) 0%,rgba(139,142,150,1) 100%); /* W3C */
+    color: #fff;
+}
+.pagination .current{
+	color: #ddd;
+}
+
+/*============================ More_Posts, Calendar ============================*/
+#wp-calendar {
+	width: 100%;
+}
+#wp-calendar caption {
+	color: #555;
+	font-size: 0.9em;
+	font-weight: bold;
+	margin: 0 0 5px 5px;
+	text-align: left;
+}
+#wp-calendar th{
+	color: #333;
+	font-size: 0.9em;
+	font-weight: bold;
+}
+#wp-calendar td{
+	text-align: center;
+}
+
+/*Comments*/
+
+div.comment-avatar-box img {
+    background: none repeat scroll 0 0 transparent;
+    border: 1px solid #FFFFFF;
+    float: none;
+    margin: 16px 0 0 4px;
+    padding: 0;
+}
+div.comment-content {
+    margin-left: 75px;
+    min-height: 110px;
+}
+#comments h3, #respond h3 {
+    color: #888888;
+    font-size: 20px;
+    font-weight: normal;
+    margin: 5px 0 15px;
+}
+#comments span.title, #trackbacks span.title {
+    color: #888888;
+}
+div.post ol.commentlist, div.page ol.commentlist {
+    list-style: none outside none;
+    margin-left: 0;
+}
+div.post ol.commentlist ul, div.page ol.commentlist ul {
+    list-style: none outside none;
+    margin-left: 20px;
+    padding-bottom: 12px;
+}
+ol.commentlist li {
+    border-top: 1px solid #EDEDED;
+    margin: 0 0 20px;
+}
+.commentlist ul li {
+    background: none repeat scroll 0 0 #F9F9F9;
+    padding: 0 12px;
+}
+.commentlist ul ul li {
+    background: none repeat scroll 0 0 #FFFFFF;
+    padding: 0 12px;
+}
+.commentlist ul ul ul li {
+    padding: 0;
+}
+div.comment-meta {
+    border-top: medium none;
+    padding-top: 0;
+}
+div.comment-meta h5 {
+    font-weight: normal;
+}
+div.comment-meta em {
+    float: right;
+}
+div.post .commentlist div.comment-content ol {
+    list-style: decimal outside none;
+    margin-bottom: 0;
+    padding-bottom: 6px;
+}
+div.post .commentlist div.comment-content ul {
+    list-style: circle outside none;
+    margin-bottom: 0;
+    padding-bottom: 6px;
+}
+div.post .commentlist div.comment-content li {
+    border: medium none;
+    margin-bottom: 0;
+}
+#comments textarea {
+    width: 98%;
+}
+div.comment-author img.avatar {
+    margin: 4px 12px 12px -45px;
+}
+div.comment-body div.commentmetadata {
+    margin-top: 0;
+}
+div.comment-body div.comment-author {
+    padding-top: 6px;
+}
+div.reply {
+    height: 32px;
+}
+div.comment-body {
+    margin-bottom: 12px;
+    margin-left: 45px;
+}
+div.post div.commentmetadata a.comment-edit-link {
+    float: right;
+    line-height: 120%;
+    padding: 3px 5px;
+}
+ul.children li.comment {
+    margin-left: 26px;
+}
+div.post .commentlist div.comment-body ol {
+    list-style: decimal outside none;
+    margin-bottom: 0;
+    padding-bottom: 6px;
+}
+div.post .commentlist div.comment-body ul {
+    list-style: circle outside none;
+    margin-bottom: 0;
+    padding-bottom: 6px;
+}
+.commentlist div.comment-body li {
+    border: medium none;
+    margin: 0;
+}
+
+/* =Navigation
+-------------------------------------------------------------- */
+
+.navigation {
+	color: #888;
+	font-size: 12px;
+	line-height: 18px;
+	overflow: hidden;
+}
+.navigation a:link,
+.navigation a:visited {
+	color: #888;
+	text-decoration: none;
+}
+.navigation a:active,
+.navigation a:hover {
+	color: #ff4b33;
+}
+.nav-previous {
+	float: left;
+	width: 50%;
+}
+.nav-next {
+	float: right;
+	text-align: right;
+	width: 50%;
+}
+#nav-above {
+	margin: 0 0 18px 0;
+}
+#nav-above {
+	display: none;
+}
+.paged #nav-above,
+.single #nav-above {
+	display: block;
+}
+#nav-below {
+	margin: -18px 0 0 0;
+}

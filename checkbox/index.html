@@ -1,0 +1,26 @@
+<form>
+	<input type="checkbox" name="colors" id="khlaed">
+</form>
+
+
+<script type="text/javascript">
+function chk(){
+	 var kahled = document.getElementById("photo");
+	
+	 if(kahled.src.match("yes_btn")){
+	  kahled.src = 'no_btn.png';
+	  document.getElementById("khlaed").checked=true
+	 }
+	
+	 else{
+	  kahled.src = 'yes_btn.png';
+	  document.getElementById("khlaed").checked=false
+	 }
+  
+  return true;
+}
+</script>
+
+<img id="photo"   src="yes_btn.png"  onclick="chk()" /> 
+
+<style>*{ text-align:center;}</style>

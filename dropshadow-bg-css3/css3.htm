@@ -1,0 +1,98 @@
+<h1> <a  href="/BANK_HTML/index.html" style="font-size:35px;">  GO TO  HOME </a></h1>
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="author" content="Tiffany Pender" />
+<meta name="description" content="iGeekyGirl is my personal site about my journey of learning web design, my love of all things techy and creative, and my overall geekery." /> 
+<meta name="keywords" content="iGeekyGirl, demo, web design, tech, technology, CSS, tutorials, HTML, XHTML, geek, Charlotte, NC, North Carolina, US, United States, geekery, geeky, creative, blog, personal thoughts, freelance, recipes" /> 
+<meta name="robots" content="index,follow" /> 
+<link rel="shortcut icon" href="http://igeekygirl.com/favicon.ico" type="image/x-icon" />
+
+
+<title>CSS3 | Rounded Corners, Drop Shadows, Opacity</title>  
+<style type="text/css">
+	body { font-family: Helvetica Neue, Arial, Helvetica, Geneva, sans-serif;  line-height: 1.7em;  font-size: 13px;  
+			background: url(pinkbkgrd.gif) repeat;  margin: 0 auto; }
+
+	#pagewrap { margin: 0px auto -250px;  min-height: 100%;  height: auto !important;  height: 100%; }
+	
+	#header	 { background: url(demoheader.png) no-repeat;  padding: 20px 0 0 0;  height: 170px; }
+	
+	h1#demologo	{ width: 204px;  height: 143px;  background: url(demologo.png) top left no-repeat;  
+				margin: -6px 10px 9px 365px;  float: left;  text-indent: -9999px; }
+				
+	h1#demologo a { height: 215px;  display: block; }							  
+
+	#maincontent { width: 960px;  line-height: 1.9em;  font-size: 1.9em;  -moz-border-radius: 5px;  -webkit-border-radius: 5px;  border-radius: 5px;
+				  background: #f0d8b6;  padding: 30px 0;  margin: -7px auto 0px; }
+				  
+		
+		
+		
+	#tiltshadows { width: 75%; margin: 1em auto; position: relative;  z-index: 3;  text-align: center; }  
+		
+	article { background: #749194;  -webkit-border-radius: 20px;  -moz-border-radius: 20px;  border-radius: 20px;  padding: 10px; color: #695539;  text-shadow: 0 1px 0 #ffffff;
+			line-height: 1.7em;  text-align: center;  display: block; }
+
+	article:before, article:after { -webkit-box-shadow: 0 15px 10px rgba(0,0,0, 0.7);  -moz-box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);	box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);	
+			position: absolute;  bottom: 15px;  z-index: -1;  width: 50%;  height: 20%;  content: "";  background: rgba(0, 0, 0, 0.7); }
+		   
+	article:after { -webkit-transform: rotate(3deg);  -moz-transform: rotate(3deg);   -o-transform: rotate(3deg);  right: 10px;  left: auto; }
+		
+	article:before { -webkit-transform: rotate(-3deg);   -moz-transform: rotate(-3deg);  -o-transform: rotate(-3deg);  right: auto;  left: 10px; }						  
+				  
+				  
+				  
+				  
+		
+	#roundandshadow { background: #faf0e1;  -webkit-border-radius: 20px;  -moz-border-radius: 20px;  border-radius: 20px;  padding: 10px; color: #695539;  text-shadow: 0 1px 0 #ffffff;
+	   		line-height: 1.7em;  text-align: center;  display: block;  width: 700px;  margin: 0 auto;  -webkit-box-shadow: 0 15px 10px #000000;   
+			-moz-box-shadow: 0 15px 10px #000000);  box-shadow: 0 15px 10px #000000; }
+
+	#text { text-shadow: 0 1px 0 #fff;  color: #695539;  text-shadow: 0 1px 0 #fff;  line-height: 1.7;  text-align: center;  display: block;  margin: 60px auto 0;  width: 700px; }			
+
+	#opacity { background: #695539;  opacity: 0.3;  /* for IE */ filter: alpha(opacity=30);  -webkit-border-radius: 20px;  -moz-border-radius: 20px;  border-radius: 20px;  
+			padding: 10px;  width: 700px;  margin: -224px auto 0;  height: 210px; }
+						
+
+</style>
+</head>  
+    <body>  
+    <div id="pagewrap">  
+        <div id="header"> 
+            <h1 id="demologo"><a href="http://igeekygirl.com"></a></h1>
+        </div> 
+		
+        <div id="maincontent">
+            <div id="tiltshadows">
+                <article> 
+                    <h2>Rounded Corners with a "Tilting" Shadow</h2> 
+                    <p>Created purely with CSS.  This is a sweet shadow effect!  Viewable in Firefox as well.  NOT available in IE.</p>  
+                </article>		               
+            </div><!--END of #tiltshadows--> 
+        
+            <div id="roundandshadow">
+                <h2>Rounded Corners with a Shadow</h2>
+                <p>Here's another example of how to use CSS3 to create rounded corners with a shadow.  Pretty simple and cool!  Shadow doesn't display in Firefox though, or IE (of course).</p>
+            </div><!--END of #roundandshadow-->  
+            
+            <div id="text">
+                <h2>Opacity</h2>
+                <p>Here's an example of how to use CSS3 to create the appearance of opacity.  Also cool!</p>
+            </div><!--END of #text-->
+            
+            <div id="opacity">
+            </div><!--END of #opacity-->  
+            
+        </div><!--END of maincontent-->
+        
+        <div></div>
+    </div><!--END of pagewrap-->
+      
+	<?php include_once("analyticstracking.php") ?>
+
+    </body>  
+</html>  

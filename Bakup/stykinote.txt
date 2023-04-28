@@ -1,0 +1,96 @@
+Webmail:
+http://webmail.webalive.biz/
+Email ID: forms@webalive.biz
+Password: webalive
+===========================================================
+Webalive Arrdess:
+Name: Rid Wilson
+Email: forms@webalive.com.biz
+Phone: 159852
+Address: Suite 910, 9 Yarra St
+Subject: This is test.
+Message: This is test. Please ignore it.
+Suburb: South Yarra
+City: Melbourn
+State: VIC
+Post Code: 3141
+Country: Australia
+===========================================================
+GIT Clone:
+STEP 1: cd /d/wamp/www
+STEP 2: git clone git@cox.webmascot.com:projectName.git
+
+
+
+cd /var/www/html/unitednurseries
+git pull
+git stash
+
+permission set:
+chmod 777 -R configuration.php
+===========================================================
+WordPress Resource
+\\FELU\projects\RESOURCE\Development\OUR ARCHIEVE\WORDPRESS\Most Popular Package
+
+FONT
+\\FELU\projects\RESOURCE\Design\Generated Font Face
+
+===========================
+JPEG to Text Free Converter
+===========================
+
+
+=============================================================
+Round Corner  Shape
+http://www.cssportal.com/css3-shapes/
+=============================================================
+Thank you. Your enquiry has been sent successfully.We will contact  you shortly
+
+Thank you. Your message has been received successfully.We will contact you shortly
+=============================================================
+h1   not  Reapt  One Page
+=============================================================
+Percentage dimensions of the left menu layout
+=============================================================
+hr@webalive.com.au  
+design-team@webalive.com.au
+=============================================================
+http://www.browserstack.com/
+
+User: design-team@webalive.com.au
+Password:  bmakabaka08
+=============================================================
+password:   9Yarra
+=============================================================
+cd /var/www/html/prjaustralia
+git pull
+=============================================================
+Gmail: bmnewslettertest@gmail.com
+ pulsar150cc
+ 
+ 
+Yahoo: bmnewslettertest@yahoo.com
+ pulsar150cc
+ 
+ 
+Hotmail: bmnewslettertest@hotmail.com
+ pulsar150cc
+
+rabbi@webalive.com.au,selim@webalive.com.au
+
+dipu@bitmascot.com
+
+bmnewslettertest@gmail.com,bmnewslettertest@yahoo.com,bmnewslettertest@hotmail.com
+
+Face Book Test:
+Account Name:selim@webalive.com.au
+Password:selimselim
+=============================================================
+To test responsive view in firefox
+[12:47:40 PM] Golam Rabbi: cntr+shift+m
+[12:48:00 PM] Golam Rabbi: the see left top option
+=============================================================
+How  Worprees  Plugin Upload
+wordpress.org/plugins/simple-dropbox-upload-form
+=============================================================
+http://www.princexml.com/doc/7.1/selectors/

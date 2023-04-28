@@ -1,0 +1,202 @@
+<style type="text/css">
+.entry_box{ width:900px; margin:0 auto; border:1px solid #ccc; padding:15px;}
+.entry_box h2{ margin:0; padding:0 0 15px 0;text-align:center;}
+.entry_box h2 span{color:#000;font-size:16px;text-align:center;font-family:Arial, Helvetica, sans-serif;background:#eee;padding:4px 25px;}
+.entry_box form{background:#eee;padding:15px;}
+.form_row{ vertical-align:top;color:#000;font-size:12px;text-align:left;font-family:Arial, Helvetica, sans-serif; padding:10px 0 0 0;}
+.form_row label{width:200px; display:inline-block; vertical-align:top; }
+.form_row_summary{ vertical-align:top;color:#000;font-size:12px;text-align:left;font-family:Arial, Helvetica, sans-serif; padding:10px 0 0 0;}
+.form_row_summary label{width:130px; display:inline-block; vertical-align:top; }
+.form_summary_box{
+	padding:15px;
+	margin:10px auto;
+
+	border:1px solid #dadada;
+    background:#f7f7f7;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    -khtml-border-radiust:4px;
+    -o-border-radius:4px;
+    border-radius:4px;
+
+
+    box-shadow:1px -1px 6px #CCCCCC inset;
+    -webkit-box-shadow:1px -1px 6px #CCCCCC inset;
+    -moz-box-shadow:1px -1px 6px #CCCCCC inset;
+}
+.form_summary_box h3{ margin:0;color:#000;font-size:16px;text-align:center;font-family:Arial, Helvetica, sans-serif;background:#eee;padding:4px 25px;}
+
+.entry_box input[type = "text"]{
+ 	width:200px;
+}
+.entry_box input[type = "text"],.entry_box  input[type = "password"] {
+	padding:0 3px;
+	height:30px;
+	line-height:30px;
+	vertical-align:middle;
+	border: 1px solid #c5c5c5;
+	-webkit-box-shadow: inset 0 1px 3px rgba(204, 204, 204, 0.95);
+	-moz-box-shadow: inset 0 1px 3px rgba(204, 204, 204, 0.95);
+	box-shadow: inset 0 1px 3px rgba(204, 204, 204, 0.95);
+	font-size: 12px;
+	font-weight: normal;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-khtml-border-radius: 2px;
+	border-radius: 2px;
+	color:#111;
+	font-size:12px;
+	text-align:left;
+	line-height:20px;
+	font-family:Arial, Helvetica, sans-serif; 
+}
+.entry_box input[type = "submit"] {
+	background:#0AAAEC;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	-khtml-border-radiust:4px;
+	-o-border-radius:4px;
+	border-radius:4px;
+	line-height:18px;
+	color:#fff;
+	font-size:12px;
+	text-align:center;
+	text-transform:uppercase;
+	font-family:Arial, Helvetica, sans-serif; 
+	height:28px;
+	line-height:28px;
+	border:none;
+	cursor:pointer;
+	padding:2px 2px;
+}
+.entry_box select {
+	width:200px;
+	padding:6px 3px;
+	height:30px;
+	line-height:30px;
+	vertical-align:middle;
+	border: 1px solid #c5c5c5;
+	-webkit-box-shadow: inset 0 1px 3px rgba(204, 204, 204, 0.95);
+	-moz-box-shadow: inset 0 1px 3px rgba(204, 204, 204, 0.95);
+	box-shadow: inset 0 1px 3px rgba(204, 204, 204, 0.95);
+	font-size: 12px;
+	font-weight: normal;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-khtml-border-radius: 2px;
+	border-radius: 2px;
+	color:#111;
+	font-size:12px;
+	text-align:left;
+	line-height:20px;
+	font-family:Arial, Helvetica, sans-serif; 
+}
+.entry_box textarea {
+	width:200px;
+	padding:3px;
+	height:130px;
+	line-height:30px;
+	vertical-align:middle;
+	overflow:auto;
+	border: 1px solid #c5c5c5;
+	-webkit-box-shadow: inset 0 1px 3px rgba(204, 204, 204, 0.95);
+	-moz-box-shadow: inset 0 1px 3px rgba(204, 204, 204, 0.95);
+	box-shadow: inset 0 1px 3px rgba(204, 204, 204, 0.95);
+	font-size: 12px;
+	font-weight: normal;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-khtml-border-radius: 2px;
+	border-radius: 2px;
+	color:#111;
+	font-size:12px;
+	text-align:left;
+	line-height:20px;
+	font-family:Arial, Helvetica, sans-serif; 
+}
+
+</style>
+
+<div class="entry_box">
+	<h2><span>Exception Entry</span></h2>
+   	<div class="form_row">Please Select employee</div>
+	<table cellpadding="0" cellspacing="0" border="0">
+    	<tr>
+        	<td valign="top" align="left">
+            	<form action="#" method="post" name="form">
+            	<div class="form_row">
+                	<label>Employee ID</label>
+                    <select>
+                    	<option value="1">1</option>
+                    	<option value="2">2</option>
+                    	<option value="3">3</option>
+                    	<option value="4">4</option>
+                    </select>
+                </div>
+
+            	<div class="form_row">
+                	<label>From Date</label>
+                    <input  type="text" />
+                </div>
+
+            	<div class="form_row">
+                	<label>To Date</label>
+                    <input  type="text" />
+                </div>
+
+            	<div class="form_row">
+                	<label>Total</label>
+                    <input  type="text" />
+                </div>
+
+            	<div class="form_row">
+                	<label>Exception type</label>
+                    <input  type="text" />
+                </div>
+
+            	<div class="form_row">
+                	<label>Remarks</label>
+                    <textarea></textarea>
+                </div>
+
+                </form>
+            </td>
+        	<td width="15"></td>
+        	<td valign="top" align="left">
+            	<form action="#" method="post" name="form">
+            	<div class="form_row">
+                	<label>Employee Name</label>
+                    <select>
+                    	<option value="1">1</option>
+                    	<option value="2">2</option>
+                    	<option value="3">3</option>
+                    	<option value="4">4</option>
+                    </select>
+                </div>
+
+            	<div class="form_summary_box">
+                	<h3>Summary</h3>
+                    <div class="form_row_summary">
+                        <label>ID</label>
+                        <input  type="text" />
+                    </div>
+                    <div class="form_row_summary">
+                        <label>Designation</label>
+                        <input  type="text" />
+                    </div>
+                    <div class="form_row_summary">
+                        <label>Department</label>
+                        <input  type="text" />
+                    </div>
+                	 
+                </div>
+                </form>
+            </td>
+        </tr>
+        <tr>
+        	<td valign="top" align="right" colspan="3">
+            <form action="#" method="post" name="form"><input type="submit" value="Submit" /></form>
+            </td>
+		</td>
+    </table>
+</div>

@@ -1,0 +1,246 @@
+<script type="text/javascript" src="http://larry.webmascot.com/shimmer/js/webalive/jquery-1.7.1.min.js"></script>
+<script>
+jQuery.noConflict();
+jQuery(document).ready(function(){
+
+
+    /*START: Mega Drop Down Menu */
+    var interval_id_mega_menu;
+    jQuery('#topnavigation_body ul li:eq(2)').hover(
+        function(){
+            var parent_this = jQuery(this);
+
+            interval_id_mega_menu = setTimeout(function(){
+                jQuery('#mega_drop_down_menu').slideDown('first');
+            }, 200 );
+
+        },
+        function(){
+
+            clearTimeout(interval_id_mega_menu);
+            jQuery('#mega_drop_down_menu').stop(true, true).slideUp('first');
+
+        }
+    );
+    /*END: Mega Drop Down Menu */
+
+
+
+});
+</script>
+
+<h1><a  href="index.html"> GO TO  HOME </a></h1>
+Ref:Simmer Jewllery - code by harun vi
+<style>
+#topnavigation {
+	background: #21252E;
+	left: 0;
+	position: relative;
+	text-align: center;
+	top: 0;
+	width: 100%;
+}
+#topnavigation_body {
+	height:45px;
+	left: 0;
+	margin: 0 auto;
+	position: relative;
+	top: 0;
+	width:987px;
+    background: #21252E;
+}
+.topnavigation_body {
+    height:45px;
+    left: 0;
+    margin: 0 auto;
+    position: relative;
+    top: 0;
+    width:987px;
+}
+.topnavigation_body ul {
+    margin: 0;
+    padding: 0;
+}
+.topnavigation_body li {
+    background: none repeat scroll 0 0 transparent;
+    float: left;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+.topnavigation_body li a {
+    display:inline-block;
+    color: #FFFFFF;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: normal;
+    line-height:20px;
+    padding:12px 45px;
+    text-align: center;
+    text-decoration: none;
+    font-family:'Futura-Light',Arial, Helvetica, sans-serif;
+}
+.topnavigation_body li a:hover
+{
+    color: #83858b;
+}
+#mega_drop_down_menu{
+    position: absolute;
+    left: 0;
+    top: 0;
+    top: 40px;
+    width: 986px;
+    height: 285px;
+    z-index: 999999;
+    display: none;
+}
+#mega_drop_down_menu .mega_drop_down_menu_content{
+    float: left;
+    margin: 5px 0 0 0;
+    padding:28px 25px 0 25px;
+    background: #fff;
+    -moz-box-shadow: 0 0 4px #888;
+    -webkit-box-shadow: 0 0 4px#888;
+    box-shadow: 0 0 4px #888;
+
+}
+
+.mega_menu_category{
+    width: 200px;
+    float:left;
+    margin-right:4px;
+}
+.mega_menu_product{
+    width:200px;
+    float:left;
+    margin-right:4px;
+}
+.mega_menu_shop_by{
+    width:200px;
+    float:left;
+    margin-right:4px;
+}
+.mega_menu_image {
+    width: 315px;
+    height: 240px;
+    float: right;
+    background: #fdfdfd;
+}
+#mega_drop_down_menu .mega_menu_column li{
+    width: 100%;
+    float:left;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+#mega_drop_down_menu .mega_menu_column li a{
+    background: url("../images/li_arrowleft_top.png") no-repeat scroll left 8px;
+    color: #000000;
+    display: block;
+    font: 12px/12px 'Futura-light';
+    margin:0 0  0 0;
+    padding:0 13px 0 17px !important;
+    line-height: 26px;
+    text-align: left;
+    text-decoration: none;
+}
+#mega_drop_down_menu .mega_menu_column li a:hover{
+    color:#83858B;
+}
+#mega_drop_down_menu .mega_menu_column li:last-child{
+    margin: 0 0 15px;
+}
+
+#topnavigation li:last-child a
+{
+    padding-right: 0;
+}
+#topnavigation li:first-child a
+{
+    padding-left:0;
+}
+.product-details-tab #information-ingredient
+{
+    display: none;
+}
+textarea#review_field
+{
+    width: 671px;
+}
+.product-details-tab #information-usage
+{
+    display: none;
+}
+.product-details-tab .box-tags
+{
+    display: none;
+}
+#mega_drop_down_menu h2 {
+    color: #000000;
+    display: block;
+    font: 17px/12px 'Futura-light';
+    margin: 0;
+    padding: 3px 0 20px 0;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+</style>
+<div class="topnavigation_body" id="topnavigation_body">
+  <ul>
+    <li><a href="#"><span>Home</span></a></li>
+    <li><a href="#"><span>About Us</span></a></li>
+    <li><a href="#"><span>Collection</span></a>
+      <div id="mega_drop_down_menu" style="display: none;">
+        <div class="mega_drop_down_menu_content"> <img alt="" src="http://larry.webmascot.com/shimmer/skin/frontend/default/webalive/images/mega_menu_top_arrow.png" id="mega_menu_top_arrow">
+          <div class="mega_menu_column mega_menu_category">
+            <div class="category_column_title">
+              <h2>Category</h2>
+            </div>
+            <div class="category_column_body">
+              <ul>
+                <li> <a href="#"><span>Jewellery</span></a> </li>
+                <li> <a href="#"><span>Watches</span></a> </li>
+              </ul>
+            </div>
+          </div>
+          <div class="mega_menu_column mega_menu_product">
+            <div class="product_column_title">
+              <h2>Brand</h2>
+            </div>
+            <div class="product_column_body">
+              <ul>
+                <li><a href="#"><span>NAJO</span></a></li>
+                <li><a href="#"><span>KAREN WALKER</span></a></li>
+                <li><a href="#"><span>SWAROVSKI </span></a></li>
+                <li><a href="#"><span>TW STEEL</span></a></li>
+                <li><a href="#"><span>ICE WATCH</span></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="mega_menu_column mega_menu_shop_by">
+            <div class="filter_attribute_content filter_attribute_content_1">
+              <div class="filter_attribute_title">
+                <h2>Price</h2>
+              </div>
+              <div class="filter_attribute_body">
+                <ul>
+                  <li><a href="#"><span>$0.00 - $99.99</span></a></li>
+                  <li><a href="#"><span>$100.00 - $199.99</span></a></li>
+                  <li><a href="#"><span>$200.00 - $299.99</span></a></li>
+                  <li><a href="#"><span>$300.00 - $399.99</span></a></li>
+                  <li><a href="#"><span>$400.00 and above</span></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="mega_menu_column mega_menu_image"> <img alt="" src="http://larry.webmascot.com/shimmer/skin/frontend/default/default/images/mega_menu_right_image.png" id="mega_menu_right_image"> </div>
+        </div>
+      </div>
+    </li>
+    <li><a href="#"><span>Services</span></a></li>
+    <li><a href="#"><span>Specials</span></a></li>
+    <li><a href="#"><span>News</span></a></li>
+    <li><a href="#"><span>Contact Us</span></a></li>
+  </ul>
+</div>

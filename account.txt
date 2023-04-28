@@ -1,0 +1,34 @@
+Your Account Details
+Your account is at the final stage of activation, in a few minutes you will be able to login and manage your [scriptname] website.
+Main Hosting Details
+Control panel username
+	fees0_11566014
+Control panel password 	**********
+Control panel URL
+	http://cpanel.0fees.net
+MySQL username
+	fees0_11566014
+MySQL password
+	**********
+MySQL hostname
+	sql102.0fees.net
+FTP username
+	fees0_11566014
+FTP password
+	**********
+FTP host name 	ftp.0fees.net
+
+	
+Automatically Installed Script (if chosen)
+Script name
+	wordpress
+Login username
+	admin
+Login password 	**********
+
+	
+Your Website URL's
+Home page
+	http://khaleddon.0fees.net
+Your script admin area
+	http://khaleddon.0fees.net/wp-admin/

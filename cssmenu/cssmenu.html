@@ -1,0 +1,119 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+	<title>Menu css gratuito - esempio 3</title>
+	<!--Onsitus.it - menu css gratuito - esempio 3:
+	Altri menu gratuiti:
+	http://css.flepstudio.org/css-menu/
+	Se usate questo template, grazie per lasciare queste informazione o un link back a onsitus.it è sempre il benvenuto-->
+	<style type="text/css">
+		html{
+		background-color: #000000;
+		margin:50px 0 0 0;
+		padding:0;
+		}
+		body{
+		behavior: url(script/csshover2.htc);<!--hack per ie6-->
+		} 
+		#menu{
+		margin:0;
+		padding:0;
+		}
+		#menu ul{
+		padding:0;
+		margin:0;
+		}
+		#menu li{
+		position: relative;
+		float: left;
+		list-style: none;
+		margin: 0;
+		padding:0;
+		}
+		#menu li a{
+		width:120px;
+		height: 30px;
+		display: block;
+		text-decoration:none;
+		text-align: center;
+		line-height: 30px;
+		font-weight: bold;
+		font-size: 10px;
+		}
+		#menu li a:hover{
+		background-position: bottom center;
+		}
+		#menu ul ul{
+		position: absolute;
+		top: 30px;
+		width: 120px;
+		visibility: hidden;
+		}
+		#menu ul li:hover ul{
+		visibility:visible;
+		}
+		a.green{
+		background: url(img/green.jpg) no-repeat top center;
+		color: #006600;
+		}
+		a.orange{
+		background: url(img/orange.jpg) no-repeat top center;
+		color: #CC3300;
+		}
+		a.blu{
+		background: url(img/blu.jpg) no-repeat top center;
+		color: #006699;
+		}
+		a.yellow{
+		background: url(img/yellow.jpg) no-repeat top center;
+		color: #FF9900;
+		}
+		a.purple{
+		background: url(img/purple.jpg) no-repeat top center;
+		color: #990066;
+		}
+	</style>
+</head>
+<body>
+<div id="menu">
+	<ul>
+		<li><a href="#nogo" class="green">Link 1</a>
+			<ul>
+				<li><a href="#nogo" class="green">Link 1-1</a></li>
+				<li><a href="#nogo" class="green">Link 1-2</a></li>
+				<li><a href="#nogo" class="green">Link 1-3</a></li>
+			</ul>
+		</li>
+		<li><a href="#nogo" class="orange">Link 2</a>
+			<ul>
+				<li><a href="#nogo" class="orange">Link 2-1</a></li>
+				<li><a href="#nogo" class="orange">Link 2-2</a></li>
+				<li><a href="#nogo" class="orange">Link 2-3</a></li>
+			</ul>
+		</li>
+		<li><a href="#nogo" class="blu">Link 3</a>
+			<ul>
+				<li><a href="#nogo" class="blu">Link 3-1</a></li>
+				<li><a href="#nogo" class="blu">Link 3-2</a></li>
+				<li><a href="#nogo" class="blu">Link 3-3</a></li>
+			</ul>
+		</li>
+		<li><a href="#nogo" class="yellow">Link 4</a>
+			<ul>
+				<li><a href="#nogo" class="yellow">Link 4-1</a></li>
+				<li><a href="#nogo" class="yellow">Link 4-2</a></li>
+				<li><a href="#nogo" class="yellow">Link 4-3</a></li>
+			</ul>
+		</li>
+		<li><a href="#nogo" class="purple">Link 5</a>
+			<ul>
+				<li><a href="#nogo" class="purple">Link 5-1</a></li>
+				<li><a href="#nogo" class="purple">Link 5-2</a></li>
+				<li><a href="#nogo" class="purple">Link 5-3</a></li>
+			</ul>
+		</li>
+	</ul>
+</div>
+</body>
+</html>

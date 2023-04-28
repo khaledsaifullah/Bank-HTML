@@ -1,0 +1,210 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>HTML BANK</title>
+<style>img{ border:0;}ul{ margin:0; padding:0;}</style>
+</head>
+<h1><a  href="index.html">  GO TO  HOME </a></h1>
+
+
+<table width="80%" align="center" style="position:relative;">
+
+<tr><td>
+<!--START:search-->
+<style type="text/css">
+.searcharea {
+	position:relative;	
+    width: 168px;
+    float: left;
+}
+input[type="text"], input[type="password"] {
+    color: #444444;
+    font-size: 12px;
+    font-weight: normal;
+    height: 25px;
+    margin: 2px 0 2px 10px;
+    padding: 0 10px;
+    width: 200px;
+	border:none;
+}
+.searcharea input.input {
+    background: url(images/input_text_bg.gif) no-repeat;
+    width: 169px;
+    height:30px;
+    float: left;
+    margin: 0;
+    padding:0 0 0 5px;
+	border:none;
+}
+
+.searcharea input.sbtn {
+    background: url(images/search_btn.gif) no-repeat;
+    float: right;
+    height: 18px;
+    right:8px;
+    position: absolute;
+    top: 7px;
+    width: 22px;
+	border:none;
+	cursor:pointer;
+}
+</style>
+<div class="searcharea">
+  <form method="get" action="" name="quick_find">
+    <input type="text" onfocus="if (this.value == 'Search') this.value = '';" onblur="if (this.value == '') this.value = 'Search';" value="Search" class="input" name="keyword">
+    <input type="submit" class="sbtn" value="">
+  </form>
+</div>
+<!--END:search-->
+</td>
+</tr>
+
+
+
+<tr><td height="10">&nbsp;</td></tr>
+
+
+<tr>
+	<td>
+    <!--START -->
+<style>
+#tw-form-outer {
+
+}
+#tw-form{
+font-family: Tahoma, Geneva, sans-serif;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border: #aaa 1px solid;
+background: #DDDDDD;
+background: -moz-linear-gradient(top, #C4C4C4 0%, #EAEAEA 0%, #D3D3D3 100%); /* firefox */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#C4C4C4), color-stop(0%,#EAEAEA), color-stop(100%,#D3D3D3)); /* webkit */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#C4C4C4', endColorstr='#D3D3D3',GradientType=0 ); /* ie */
+width: 175px;
+float: left;
+padding: 0 4px;
+border-top-left-radius: 4px 4px;
+border-top-right-radius: 4px 4px;
+border-bottom-right-radius: 4px 4px;
+border-bottom-left-radius: 4px 4px;
+}
+#tw-form #tw-input-text{
+width: 140px;
+float: left;
+border: 0;
+background: #DDDDDD;
+background: -moz-linear-gradient(top, #C4C4C4 0%, #EAEAEA 0%, #D3D3D3 100%); /* firefox */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#C4C4C4), color-stop(0%,#EAEAEA), color-stop(100%,#D3D3D3)); /* webkit */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#C4C4C4', endColorstr='#D3D3D3',GradientType=0 ); /* ie */
+color: #777;
+line-height: 100%;
+font-size: 12px;
+font-family: Tahoma, Geneva, sans-serif;
+margin-top:3px;margin-bottom:3px;
+height:20px;
+padding:0;
+}
+#tw-form #tw-input-text:focus{
+outline:none;
+color:#333;
+}
+#tw-form #tw-input-submit{
+background: url(search-zoom-icon.png) no-repeat 8px 5px;
+border: 0;
+float: left;
+width: 22px;
+z-index: 100;
+cursor: pointer;
+}
+</style>
+<div id="tw-form-outer" style="float:left; width:200px;">
+<form action="" method="post" id="tw-form">    
+	<input type="text" id="tw-input-text" name="query" value='search' onFocus="if(this.value=='search'){this.value='';}" onBlur="if(this.value==''){this.value='search';}" /> 
+    <input type="submit" id="tw-input-submit" value="" /> 
+</form>
+</div>
+<!--END-->
+
+    </td>
+</tr>
+
+
+<tr><td height="30">&nbsp;</td></tr>
+
+
+
+
+<tr>
+<td>
+<div id="search-box">
+  <form action="#" id="search-form" method="get" >
+    <input id="search-text" name="q" placeholder="type here" type="text"/>
+    <button id="search-button" type="submit"><span>Search</span></button>
+  </form>
+</div>
+<style>
+#search-box {
+    position: relative;
+    width:20%;
+    margin: 0;
+}
+
+#search-form {
+    height: 40px;
+    border: 1px solid #999;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+#search-text {
+    font-size: 14px;
+    color: #ddd;
+    border-width: 0;
+    background: transparent;
+}
+
+#search-box input[type="text"] {
+    width: 90%;
+    padding:4px 0 12px 1em;
+    color: #333;
+    outline: none;
+}
+
+#search-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 42px;
+    width: 80px;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    line-height: 42px;
+    border-width: 0;
+    background-color: #999;
+    -webkit-border-radius: 0px 5px 5px 0px;
+    -moz-border-radius: 0px 5px 5px 0px;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+}
+
+</style>
+</td>
+</tr>
+
+
+
+
+
+
+
+
+</table>
+<body>
+</body>
+</html>
+

@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style type="text/css">
+.container {
+  height: 125px;
+  text-align: justify;
+  font-size: 0.1px; /* IE 9/10 don't like font-size: 0; */
+  min-width: 600px;
+  width: 1000px;
+  margin:100px auto;
+}
+.container img {
+  width: 150px;
+  height: 125px;
+  display: inline-block;
+  background: red;
+}
+.container:after {
+  content: '';
+  width: 100%; /* Ensures there are at least 2 lines of text, so justification works */
+  display: inline-block;
+}
+</style>
+</head>
+
+<body>
+<div class="container">
+	<img src="Chrysanthemum.jpg" />
+    <img src="Desert.jpg" />
+    <img src="Hydrangeas.jpg" />
+    <img src="Jellyfish.jpg" />
+    <img src="Koala.jpg" />
+</div>
+</body>
+</html>

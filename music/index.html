@@ -1,0 +1,54 @@
+ <div class="musicPlayer">
+    <div class="musicPlayer-box">
+		<script type="text/javascript" src="audio/jquery.min1.7.2.js"></script>
+        <script type="text/javascript" src="audio/jwplayer.js"></script>
+        <div id="musicBox"></div>
+        <script type="text/javascript">
+            jwplayer("musicBox").setup({
+                autostart:true,
+                flashplayer: "audio/player.swf",
+                file: "audio/A Spark of Motivation w Intro.mp3"
+            });
+
+            function playPause(action){
+                if(action=='pause'){
+                    $('.play-pause-controller .pause').css('display', 'none');
+                    $('.play-pause-controller .play').css('display', 'block');
+                }else{
+                    $('.play-pause-controller .pause').css('display', 'block');
+                    $('.play-pause-controller .play').css('display', 'none');
+                }
+
+                jwplayer().play();
+            }
+
+        </script>
+    </div>
+</div>
+
+
+
+<div class="play-pause-controller">
+    <a href="javascript:void(0)" onclick="playPause('play')" class="play" title="Play" alt="Play"><img src="images/sound_mute.png" alt="" width="43" height="43" /></a>
+    <a href="javascript:void(0)" onclick="playPause('pause')" class="pause" title="Pause" alt="Pause"><img src="images/sound_play.png" alt="" width="43" height="43" /></a>
+</div>  
+
+
+ 
+
+
+
+            
+<style>
+.play-pause-controller {
+	bottom: 49px;
+	position: absolute;
+	right: 180px;
+}
+.play-pause-controller .play {
+    display: none;
+}
+.play-pause-controller .pause {
+    display: block;
+}
+</style>
